@@ -1,0 +1,27 @@
+This is a sample text file for testing FileVault encryption and decryption functionality.
+
+FileVault Test Data
+==================
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Testing Features:
+- Basic encryption/decryption
+- File integrity verification  
+- Error handling
+- Cross-platform compatibility
+
+Security Test Cases:
+1. Password validation
+2. Salt generation uniqueness
+3. IV randomness verification
+4. Authentication tag validation
+5. Memory security (zeroization)
+
+This file contains exactly 256 characters of meaningful test data to validate
+the FileVault encryption system works correctly with various file sizes and
+content types including special characters: !@#$%^&*()_+-={}[]|;:'"<>,.?/~`
+
+End of test file.
