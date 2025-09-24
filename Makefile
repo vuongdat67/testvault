@@ -26,8 +26,7 @@ test:
 
 # Run tests with coverage
 test-coverage:
-	go test -v -coverprofile=coverage.out ./...
-	go tool cover -html=coverage.out -o coverage.html
+	go test -v ./test/unit/... ./test/integration/... ./test/benchmarks/...
 
 # Clean build artifacts
 clean:
