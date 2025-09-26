@@ -1,4 +1,4 @@
-﻿package fileops
+package fileops
 
 import (
 	"crypto/sha256"
